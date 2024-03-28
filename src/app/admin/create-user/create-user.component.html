@@ -1,1 +1,10 @@
 <p>create-user works!</p>
+<p>{{userName}}</p>
+<p>{{userName+'Dadarwal'}}</p>
+<p>{{userName?'Default User name':userName}}</p>
+<a [href]="link">This is Google link</a>
+<img [src]="imagelink" class="image"/>
+<button [disabled]="status">Button Binding</button>
+
+<button (click)="OnMouseClick($event)" (dblclick)="OnDoubleClick($event)" [class]='buttonClass'>Button Client</button>
+<input (keyup)="OnKeyUp($event)" type="text" placeholder="inputcharacter"/>
